@@ -12,7 +12,7 @@ CREATE TABLE employees (
     first_name varchar(20) not null,
     last_name varchar(20) not null,
     sex varchar(20) not null,
-    hire_date varchar(20) not null,
+    hire_date date not null,
 	primary key (emp_no),
 	foreign key (emp_title_id) references titles(title_id)
 );
